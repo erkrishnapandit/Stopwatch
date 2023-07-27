@@ -1,0 +1,48 @@
+/* Boddy Styling */
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f2f3f5;
+    height: 100vh;
+}
+
+/* Timer, Digit & Text Styling */
+.container{
+   color: #000000    
+}
+
+.digit{
+    font-size: 150px;
+    font-weight: bolder;
+}
+
+.text{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* Button Styling*/
+.btn{
+    font-size: 20px;
+    margin: 0px 5px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    height: 35px;
+    width: 150px;
+    font-weight: bolder;
+}
+
+/* Button Colour */
+#start{
+    background-color: #22ff00;
+}
+#stop{
+    background-color: rgb(255, 255, 0);
+}
+#reset{
+    background-color: rgba(255, 0, 0, 0.822);
+}
